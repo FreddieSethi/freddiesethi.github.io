@@ -4528,6 +4528,43 @@ input, select, textarea {
 
 /* Nav Panel */
 
+/* NAVBAR AT TOP */
+#navbar {
+	position: fixed;
+	top: 0;
+	right: 0;
+
+	padding: 10px;
+	z-index: 999; /* Ensure the navbar appears above other elements */
+}
+
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar li {
+	display: inline;
+}
+
+#navbar a {
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+#navbar a:hover {
+	color: #00ff00; /* Change to green */
+	background-color: #555;
+}
+
+
+
+
 	#navPanelToggle {
 		text-decoration: none;
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
